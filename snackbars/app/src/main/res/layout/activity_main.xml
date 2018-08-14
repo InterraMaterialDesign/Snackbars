@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/normal"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/normal_snackbar" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/withAction"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/snackbar_with_action"/>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/withSwipe"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/snackbar_with_swipe"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/size"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/override_text_size"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/fullWidth"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/custom_snackbar_size"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/customSnackbar"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/custom_snackbar" />
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/multiLine"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/multiline_snackbar" />
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/fab"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="@string/floating_action_button" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

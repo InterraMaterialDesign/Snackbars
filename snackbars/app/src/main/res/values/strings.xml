@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Snackbar</string>
+    <string name="normal_snackbar">Normal Snackbar</string>
+    <string name="snackbar_with_action">Snackbar with Action</string>
+    <string name="snackbar_with_swipe">Snackbar with Swipe</string>
+    <string name="floating_action_button">Floating Action Button</string>
+    <string name="custom_snackbar">Custom Snackbar</string>
+    <string name="span_all_width">Span all Width</string>
+    <string name="multiline_snackbar">MultiLine Snackbar</string>
+    <string name="override_text_size">Override Text Size</string>
+    <string name="custom_snackbar_size">Custom Snackbar Size</string>
+</resources>
